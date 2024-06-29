@@ -14,7 +14,7 @@ public class PetDisplayApp88 extends JFrame {
 
     public PetDisplayApp88() {
         setTitle("Choose Your Pet");
-        setSize(400, 400); // Increased height to accommodate image
+        setSize(400, 400); 
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         // Create radio buttons
@@ -38,7 +38,7 @@ public class PetDisplayApp88 extends JFrame {
 
         // Create image label with pig image
         imageLabel = new JLabel();
-        imageLabel.setPreferredSize(new Dimension(300, 300)); // Set preferred size for image
+        imageLabel.setPreferredSize(new Dimension(300, 300)); 
 
         try {
             URL url = new URL(PIG_IMAGE_URL);
